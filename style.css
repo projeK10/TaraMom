@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #b03535;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+img {
+   height: 80px;
+}
+
+h1 {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.5);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+main {
+    height: 100vh;
+    margin: 40vh 0;
+}
+
+#inputLove {
+    background: #731f1f;
+    padding: 0.8rem 1.7rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    background: #b03535;
+    border: 0.2rem solid #cc4e4e;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    color: white;
+    font-family: inherit;
+}
+
+button:hover {
+    background: white;
+    color: #cc4e4e;
+    cursor: pointer;
+}
+
+button:active {
+    margin-top: 0.4rem;
+}
+
